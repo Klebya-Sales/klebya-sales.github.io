@@ -1,0 +1,21 @@
+.inicial{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    height: 300px;
+    background-color: red;
+    color: black;
+}
+img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: solid 8px rgb(242, 125, 197);
+}
+
+.div-do-texto {
+    float: left;
+}
+
+.div-da-imagem {
+    float: right;
+}
