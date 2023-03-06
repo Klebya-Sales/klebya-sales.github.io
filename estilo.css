@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #eee;
+}
+
 .menu{
     background-color: #eee;
     padding: 50px;
@@ -87,8 +91,93 @@ img{
 }
 
 .experiencia{
+    margin:auto;
+    width: 80%;
+    margin-top: -50px;
     font-family: 'Chakra Petch', sans-serif;
+    background-color: #eee;
+    border-radius: 20px;
+    border: 1px solid rgb(247, 44, 196);
+    padding: 20px;
 }
 .experiencia-titulo{
-    
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
+
+.grid{
+    display: inline-flex;
+    width: 100%;
+    font-size: 20px;
+}
+
+.teste {
+    margin: 30px;
+    width: 100%;
+}
+
+.linguagem{
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+    margin: auto;
+    width: 50%;
+    transition-duration: .2s;
+}
+.linguagem:hover{
+    border: 2px solid rgb(242, 149, 219);
+    box-shadow: 8px -8px 10px rgb(242, 149, 219);
+    transition-duration: .2s;
+}
+.icone{
+    font-size: 100px;
+    margin: 20px;
+}
+.lang{
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+}
+.icone1{
+    color: orangered;
+}
+.icone2{
+    color: rgb(0, 81, 255);
+}
+.icone3{
+    color: rgb(255, 221, 0);
+}
+.icone4{
+    color: rgb(0, 136, 255);
+}
+.contato{
+    height: auto;
+    text-align: center;
+    background-color: rgb(247, 44, 196);
+    padding: 80px;
+}
+.link-contato{
+    text-decoration: none;
+    color:#eee;
+    border: 1px solid #eee;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 100px;
+    font-size: 30px;
+}
+.frase{
+    padding: 60px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    color: #eee;
+    transition-duration: .4s;
+}
+
+.link-contato:hover{
+    background-color: #eee;
+    color: rgb(247, 44, 196);
+    transition-duration: .4s;
 }
