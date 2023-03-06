@@ -1,37 +1,63 @@
-.inicial{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 50px;
-    height: 90vh;
-    background-image: linear-gradient(to right, rgb(0, 200, 255), rgb(16, 61, 89));
-    /* rgb(242, 132, 132), rgb(235, 12, 12) */
-    color: black;
-    box-sizing: border-box;
-}
-img{
-    max-width: 200px;
-    border-radius: 50%;
-    border: solid 8px rgb(241, 157, 209);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.div-do-texto {
-    float: left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.botao{
-    width: ;
-    margin: 0 auto;
+.menu{
+    background-color: #eee;
+    padding: 50px;
 }
 
-.div-da-imagem {
+.alinhar{
     float: right;
 }
-button{
-    background-color: rgb(181, 241, 235);
-    width: auto;
-    height: auto;
-    border-radius: 10%;
-    border: solid 3px rgb(116, 153, 150);
+
+.link-especial{
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(247, 44, 196);
+    background-color: #eee;
+    border: 2px solid rgb(247, 44, 196);
+    padding: 12px;
+    border-radius: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.link-especial:hover{
+    color: #eee;
+    background-color: rgb(247, 44, 196);
+    transition-duration: .3s;
+}
+
+.titulo{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.oi{
+    color: rgb(247, 44, 196);
+}
+
+.inicial{
+    padding-top: 5vh;
+    height: 90vh;
+    background-color: #eee;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+img{
+    margin: 60px;
+    max-width: 260px;
+    border-radius: 50%;
+    border: solid 6px rgb(247, 44, 196);
 }
