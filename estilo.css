@@ -99,6 +99,7 @@ img{
     border-radius: 20px;
     border: 1px solid rgb(247, 44, 196);
     padding: 20px;
+    position: relative;
 }
 .experiencia-titulo{
     font-size: 50px;
@@ -158,6 +159,8 @@ img{
     text-align: center;
     background-color: rgb(247, 44, 196);
     padding: 80px;
+    margin-top: -50px;
+    
 }
 .link-contato{
     text-decoration: none;
@@ -181,3 +184,24 @@ img{
     color: rgb(247, 44, 196);
     transition-duration: .4s;
 }
+@media screen and (max-width: 700px) {
+   .grid{
+        display: block;
+   }
+   .teste{
+        margin: auto;
+        margin-bottom: 20px
+   }
+   .frase{
+    font-size: 25px;
+   }
+   .link-contato{
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+   }
+   img{
+    margin: auto;
+    width: 80%;
+   }
+};
